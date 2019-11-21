@@ -60,13 +60,11 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        <Logo img_src={`${baseUrl}img/undraw_monitor.svg`} />
+
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html')}>Example Link</Button>
-            <Button href={docUrl('doc2.html')}>Example Link 2</Button>
+            <Button href="#try">Get Started</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -92,14 +90,7 @@ class Index extends React.Component {
       </Container>
     );
 
-    const FeatureCallout = () => (
-      <div
-        className="productShowcaseSection paddingBottom"
-        style={{textAlign: 'center'}}>
-        <h2>Feature Callout</h2>
-        <MarkdownBlock>These are features of this project</MarkdownBlock>
-      </div>
-    );
+
 
     const TryOut = () => (
       <Block id="try">
@@ -132,33 +123,38 @@ class Index extends React.Component {
     );
 
     const LearnHow = () => (
+
       <Block background="light">
         {[
           {
             content:
-              'Each new Docusaurus project has **randomly-generated** theme colors.',
-            image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
-            imageAlign: 'right',
-            title: 'Randomly Generated Theme Colors',
+              '<div class="command"><div class="label">Run this command:</div><div class="text">conda install -c stlearn stlearn=0.1.0 python=3.6</div></div>',
+            image: `${baseUrl}img/install.png`,
+            imageAlign: 'left',
+            title: 'Installation',
+
           },
         ]}
+
       </Block>
+
     );
+
 
     const Features = () => (
       <Block layout="fourColumn">
         {[
           {
-            content: 'This is the content of my feature',
+            content: 'Trajectory inference',
             image: `${baseUrl}img/undraw_react.svg`,
             imageAlign: 'top',
-            title: 'Feature One',
+            title: 'Pseudo-time-space',
           },
           {
-            content: 'The content of my second feature',
+            content: 'Analysis of DE based on region of interest',
             image: `${baseUrl}img/undraw_operating_system.svg`,
             imageAlign: 'top',
-            title: 'Feature Two',
+            title: 'Region-based differential expression',
           },
         ]}
       </Block>
@@ -198,7 +194,7 @@ class Index extends React.Component {
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
           <Features />
-          <FeatureCallout />
+
           <LearnHow />
           <TryOut />
           <Description />
