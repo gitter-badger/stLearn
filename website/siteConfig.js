@@ -38,10 +38,10 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    {page: 'about', label: 'About'},
+    {doc: 'introduction', label: 'Documentation'},
+    {doc: 'apiref', label: 'API'},
+    {page: 'publications', label: 'Publications'},
   ],
 
   // If you have users set above, you add it here:
@@ -73,7 +73,8 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} Biomedical Machine Learning Lab - Institute of Molecular Bioscience 
+              - The University of Queensland`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.

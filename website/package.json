@@ -10,5 +10,8 @@
   },
   "devDependencies": {
     "docusaurus": "^1.14.0"
+  },
+  "dependencies": {
+    "@docusaurus/theme-live-codeblock": "^2.0.0-alpha.33"
   }
 }
