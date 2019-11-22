@@ -115,22 +115,22 @@ class Index extends React.Component {
       <Block layout="twoColumn">
         {[
           {
-            content: 'Trajectory inference',
+            content: 'Using Spatial Weight to construct Pseudo-time-space',
             image: `${baseUrl}img/pseudo-time-space.png`,
             imageAlign: 'top',
-            title: 'Pseudo-time-space',
+            title: 'Pseudo-time-space Trajectory Inference',
+          },
+          {
+            content: 'Analysis of DE based on region extracted from pseudo-time',
+            image: `${baseUrl}img/Transition-DEA.png`,
+            imageAlign: 'top',
+            title: 'Transition Differential Expression Analysis',
           },
           {
             content: 'Analysis of DE based on region of interest',
-            image: `${baseUrl}img/Transition-DEA.png`,
-            imageAlign: 'top',
-            title: 'Trainsition Differential Expression Analysis',
-          },
-          {
-            content: 'Differential Expression Analysis',
             image: `${baseUrl}img/Brain1_volcano_control.png`,
             imageAlign: 'top',
-            title: 'Trainsition Differential Expression Analysis',
+            title: 'Differential Expression Analysis',
           },
         ]}
       </Block>

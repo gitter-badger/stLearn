@@ -1,6 +1,12 @@
 {
   "docs": {
-    "Tutorial": ["introduction","install","getstart"],
-    "API References": ["apiref"]
+    "Tutorial": ["introduction",
+    	"install",
+    	"getstart"],
+    "API References": ["reading",
+    	"preprocessing",
+    	"embedding",
+    	"tools",
+    	"plotting"]
   }
 }

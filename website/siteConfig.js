@@ -40,7 +40,7 @@ const siteConfig = {
   headerLinks: [
     {page: 'about', label: 'About'},
     {doc: 'introduction', label: 'Documentation'},
-    {doc: 'apiref', label: 'API'},
+    {doc: 'reading', label: 'API'},
     {page: 'publications', label: 'Publications'},
   ],
 
@@ -59,7 +59,7 @@ const siteConfig = {
   },
 
   /* Custom fonts for website */
-  /*
+  
   fonts: {
     myFont: [
       "Times New Roman",
@@ -70,7 +70,7 @@ const siteConfig = {
       "system-ui"
     ]
   },
-  */
+  
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
   copyright: `Copyright © ${new Date().getFullYear()} Biomedical Machine Learning Lab - Institute of Molecular Bioscience 
