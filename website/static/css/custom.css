@@ -64,7 +64,7 @@
 }
 
 .fixedHeaderContainer header img {
-    height: 185%;
+    height: 170%;
     margin-right: 10px;
     padding-top: 11px;
 }
@@ -92,4 +92,13 @@
 
 .wrapper {
     max-width: 1250px;
+}
+
+.imageAlignTop .blockImage {
+    margin-bottom: 24px;
+    max-width: 300px;
+}
+
+.gridBlock > * {
+    margin: 15px 12px;
 }

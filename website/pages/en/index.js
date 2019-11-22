@@ -112,19 +112,25 @@ class Index extends React.Component {
 
 
     const Features = () => (
-      <Block layout="fourColumn">
+      <Block layout="twoColumn">
         {[
           {
             content: 'Trajectory inference',
-            image: `${baseUrl}img/undraw_react.svg`,
+            image: `${baseUrl}img/pseudo-time-space.png`,
             imageAlign: 'top',
             title: 'Pseudo-time-space',
           },
           {
             content: 'Analysis of DE based on region of interest',
-            image: `${baseUrl}img/undraw_operating_system.svg`,
+            image: `${baseUrl}img/Transition-DEA.png`,
             imageAlign: 'top',
-            title: 'Region-based differential expression',
+            title: 'Trainsition Differential Expression Analysis',
+          },
+          {
+            content: 'Differential Expression Analysis',
+            image: `${baseUrl}img/Brain1_volcano_control.png`,
+            imageAlign: 'top',
+            title: 'Trainsition Differential Expression Analysis',
           },
         ]}
       </Block>
